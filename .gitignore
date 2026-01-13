@@ -1,1 +1,26 @@
+# CMake
+CMakeCache.txt
+CMakeFiles/
+cmake_install.cmake
+Makefile
+build/
+out/
 
+# Binaries
+*.exe
+*.out
+*.obj
+*.o
+*.a
+*.so
+*.dll
+*.lib
+
+# IDE
+.vscode/
+.idea/
+*.user
+
+# Reports
+reports/*.csv
+!reports/audit_report.csv
