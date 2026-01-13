@@ -28,6 +28,7 @@ BEGIN
 
     UPDATE orders SET total_price = v_total WHERE order_id = v_order_id;
 
+    
     RETURN v_order_id;
 END;
 $$ LANGUAGE plpgsql;
